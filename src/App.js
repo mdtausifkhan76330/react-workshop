@@ -1,14 +1,12 @@
 import './App.css';
 import Navbar from '../src/Component/Navbar'
-import Body from './Component/Body';
-import TempComp from './Component/temp/TempComp';
+import Headpart from '../src/Component/Headpart'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Body />
-      <TempComp/>
+      <Headpart/>
     </div>
   );
 }
