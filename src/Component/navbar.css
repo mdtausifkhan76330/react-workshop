@@ -1,0 +1,14 @@
+.nav{
+    background-color: black;
+    color: white;
+    height: 2rem;
+
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav ul li{
+    margin: 0 1rem;
+}
